@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Calendar</name>
+   <tag></tag>
+   <elementGuidId>3c0d7929-d5c2-49e1-81a2-96e2d078665d</elementGuidId>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>u-font-size--h-tiny</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Calendar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;c-background
+                u-bottom--x0
+                u-left--x0
+                u-position--absolute
+                u-right--x0
+                u-top--x0
+                u-print--no-background&quot;]/div[@class=&quot;js-menu
+                v3
+                c-menu
+                u-box-shadow
+                u-z-index--sky
+                u-position--fixed
+                u-height--100x100
+                u-background--black
+                u-print--never&quot;]/div[@class=&quot;js-menu-scrollable c-menu--scrollable-container&quot;]/div[@class=&quot;gm-scrollbar-container&quot;]/div[@class=&quot;gm-scroll-view&quot;]/div[@class=&quot;c-menu--scrollable-content&quot;]/nav[@class=&quot;js-main-menu&quot;]/ul[1]/li[@class=&quot;l-grid-1of1&quot;]/a[@class=&quot;js-menu-item
+                
+                js-tour--menu-item-calendar
+                l-grid-1of1
+                c-menu--main-item
+                c-menu--main-item-active
+                u-height--x3
+                u-border-radius--zero
+                u-padding-left--small
+                u-padding-right
+                u-flex-box--vertical
+                u-color--grey-very-light
+                u-text-align--left&quot;]/span[@class=&quot;u-ellipsis&quot;]/span[@class=&quot;u-font-size--h-tiny&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='root']/div/div[2]/div/div/div[3]/div/nav/ul/li[2]/a/span/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Praveen VenkatNag'])[1]/following::span[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clients'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounts'])[1]/preceding::span[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//li[2]/a/span/span[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

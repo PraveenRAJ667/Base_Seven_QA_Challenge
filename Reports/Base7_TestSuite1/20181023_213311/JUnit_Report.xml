@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Base7_TestSuite1" time="40" tests="3" failures="0" errors="0">
+   <testsuite name="Base7_TestSuite1" tests="3" failures="0" errors="0" time="40" timestamp="2018-10-23 21:33:13" hostname="Praveen 667 - Praveen667-PC" id="Test Suites/Base7_TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Praveen 667\\Katalon Studio\\New folder\\Base7Challenge\\Reports\\Base7_TestSuite1\\20181023_213311"/>
+         <property name="logFiles" value="C:\\Users\\Praveen 667\\Katalon Studio\\New folder\\Base7Challenge\\Reports\\Base7_TestSuite1\\20181023_213311\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Praveen 667 - Praveen667-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.32.179"/>
+         <property name="sessionId" value="1380e3aaa83da2ca165fff4a81a2cc70"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Base7_Login_Calender" classname="Test Cases/Base7_Login_Calender" status="PASSED">
+         <system-out><![CDATA[2018-10-23 21:33:14 - [TEST_CASE][PASSED] - Test Cases/Base7_Login_Calender: Test Cases/Base7_Login_Calender
+
+2018-10-23 21:33:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 21:33:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 21:33:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://friends.base7.io/login' successfully
+
+2018-10-23 21:33:27 - [MESSAGE][PASSED] - Navigate to 'https://friends.base7.io/login' successfully
+
+2018-10-23 21:33:27 - [TEST_STEP][PASSED] - setText: Text 'praveen' is set on object 'Object Repository/Test/Page_base7/input'
+
+2018-10-23 21:33:27 - [MESSAGE][PASSED] - Text 'praveen' is set on object 'Object Repository/Test/Page_base7/input'
+
+2018-10-23 21:33:27 - [TEST_STEP][PASSED] - setText: Text '9538227769' is set on object 'Object Repository/Test/Page_base7/input----Password'
+
+2018-10-23 21:33:28 - [MESSAGE][PASSED] - Text '9538227769' is set on object 'Object Repository/Test/Page_base7/input----Password'
+
+2018-10-23 21:33:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_base7/button_Sign In' is clicked on
+
+2018-10-23 21:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_base7/button_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base7_Reservations" classname="Test Cases/Base7_Reservations" status="PASSED">
+         <system-out><![CDATA[2018-10-23 21:33:28 - [TEST_CASE][PASSED] - Test Cases/Base7_Reservations: Test Cases/Base7_Reservations
+
+2018-10-23 21:33:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7_Login_Calender' successfully
+
+2018-10-23 21:33:28 - [TEST_CASE][PASSED] - Test Cases/Base7_Login_Calender: Test Cases/Base7_Login_Calender
+
+2018-10-23 21:33:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 21:33:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-23 21:33:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 21:33:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://friends.base7.io/login' successfully
+
+2018-10-23 21:33:37 - [MESSAGE][PASSED] - Navigate to 'https://friends.base7.io/login' successfully
+
+2018-10-23 21:33:37 - [TEST_STEP][PASSED] - setText: Text 'praveen' is set on object 'Object Repository/Test/Page_base7/input'
+
+2018-10-23 21:33:37 - [MESSAGE][PASSED] - Text 'praveen' is set on object 'Object Repository/Test/Page_base7/input'
+
+2018-10-23 21:33:37 - [TEST_STEP][PASSED] - setText: Text '9538227769' is set on object 'Object Repository/Test/Page_base7/input----Password'
+
+2018-10-23 21:33:37 - [MESSAGE][PASSED] - Text '9538227769' is set on object 'Object Repository/Test/Page_base7/input----Password'
+
+2018-10-23 21:33:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_base7/button_Sign In' is clicked on
+
+2018-10-23 21:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_base7/button_Sign In' is clicked on
+
+2018-10-23 21:33:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7_Login_Calender' successfully
+
+2018-10-23 21:33:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Calendar - base7/span_Reservations' is clicked on
+
+2018-10-23 21:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Calendar - base7/span_Reservations' is clicked on
+
+2018-10-23 21:33:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Reservations - base7/td_10000015' is clicked on
+
+2018-10-23 21:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Reservations - base7/td_10000015' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base7_Settings" classname="Test Cases/Base7_Settings" status="PASSED">
+         <system-out><![CDATA[2018-10-23 21:33:41 - [TEST_CASE][PASSED] - Test Cases/Base7_Settings: Test Cases/Base7_Settings
+
+2018-10-23 21:33:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7_Login_Calender' successfully
+
+2018-10-23 21:33:41 - [TEST_CASE][PASSED] - Test Cases/Base7_Login_Calender: Test Cases/Base7_Login_Calender
+
+2018-10-23 21:33:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 21:33:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-23 21:33:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 21:33:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://friends.base7.io/login' successfully
+
+2018-10-23 21:33:48 - [MESSAGE][PASSED] - Navigate to 'https://friends.base7.io/login' successfully
+
+2018-10-23 21:33:48 - [TEST_STEP][PASSED] - setText: Text 'praveen' is set on object 'Object Repository/Test/Page_base7/input'
+
+2018-10-23 21:33:49 - [MESSAGE][PASSED] - Text 'praveen' is set on object 'Object Repository/Test/Page_base7/input'
+
+2018-10-23 21:33:49 - [TEST_STEP][PASSED] - setText: Text '9538227769' is set on object 'Object Repository/Test/Page_base7/input----Password'
+
+2018-10-23 21:33:49 - [MESSAGE][PASSED] - Text '9538227769' is set on object 'Object Repository/Test/Page_base7/input----Password'
+
+2018-10-23 21:33:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_base7/button_Sign In' is clicked on
+
+2018-10-23 21:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_base7/button_Sign In' is clicked on
+
+2018-10-23 21:33:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7_Login_Calender' successfully
+
+2018-10-23 21:33:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Calendar - base7/span_Settings_1' is clicked on
+
+2018-10-23 21:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Calendar - base7/span_Settings_1' is clicked on
+
+2018-10-23 21:33:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Calendar - base7/a_Accommodations' is clicked on
+
+2018-10-23 21:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Calendar - base7/a_Accommodations' is clicked on
+
+2018-10-23 21:33:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Accommodations - base7/Page_Accommodations - base7/div_Restrictions' is clicked on
+
+2018-10-23 21:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Accommodations - base7/Page_Accommodations - base7/div_Restrictions' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-23 21:33:13 - [TEST_SUITE][PASSED] - Base7_TestSuite1: Test Cases/Base7_Settings]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

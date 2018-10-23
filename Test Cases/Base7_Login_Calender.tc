@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base7_Login_Calender</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d639f48-76e8-4f6e-be78-655d74498f5e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bce96f80-fce4-4d44-8fe2-def8ac1a4c0e</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+</TestCaseEntity>
